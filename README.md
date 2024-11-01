@@ -4,4 +4,5 @@ in RVIZ
 ![WhatsApp Image 2024-11-01 at 07 23 55_449378b5](https://github.com/user-attachments/assets/d14ef1e7-bed5-4060-b550-e5dd4571e49d)
 
 Mapping using hector slam
-![WhatsApp Image 2024-11-01 at 07 23 55_06d7af62](https://github.com/user-attachments/assets/c8ab3a32-1b00-407e-8a96-983737edae03)
+https://github.com/user-attachments/assets/374b93fd-a158-48d2-808d-406cd172b79b
+
