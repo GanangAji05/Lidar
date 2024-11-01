@@ -1,0 +1,22 @@
+
+<launch>
+<!-- 
+  <node name="laser_scan_to_pointcloud_and_filter" pkg="filter_lidar" type="filter_PassTrough" output="screen"/>
+  <node name="laser_scan_to_Indices" pkg="filter_lidar" type="extrak_indices" output="screen"/>
+  <node name="Indices" pkg="filter_lidar" type="Indices" output="screen"/>
+  <node name="laser_PC" pkg="filter_lidar" type="tranfrom_pointcloud" output="screen"/>
+  <node name="laser_Radius" pkg="filter_lidar" type="Radius_Removal" output="screen"/> -->
+  <!-- <node name="filter_Statistic" pkg="filter_lidar" type="filter_statistical_removal" output="screen"/> -->
+  <node name="filter_voxelgrid" pkg="filter_lidar" type="filter_voxelgrid" output="screen"/>
+  <!-- <node name="filter_cropbox" pkg="filter_lidar" type="filter_cropbox" output="screen"/> -->
+  <node name="filter_median" pkg="filter_lidar" type="filter_median" output="screen"/>
+  <node name="filter_gaussian" pkg="filter_lidar" type="filter_gaussian" output="screen"/>
+  <node name="filter_IR" pkg="filter_lidar" type="filter_IR" output="screen"/>
+  <!-- <node name="morph" pkg="filter_lidar" type="morph" output="screen"/> -->
+  <!-- <node name="tranfrom_pointcloud" pkg="filter_lidar" type="tranfrom_pointcloud" output="screen"/> -->
+  <node name="AORI" pkg="filter_lidar" type="AORI" output="screen"/>
+  <node name="gaus" pkg="filter_lidar" type="gaus" output="screen"/>
+
+
+
+</launch>

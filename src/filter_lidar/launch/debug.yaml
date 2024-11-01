@@ -1,0 +1,2 @@
+loggers:
+  ros.gmapping.message_filter: DEBUG

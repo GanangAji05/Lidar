@@ -1,0 +1,21 @@
+<launch>
+    <!-- Launch Hector Mapping -->
+    <node name="hector_mapping" pkg="hector_mapping" type="hector_mapping" output="screen">
+        <!-- Set LIDAR topic -->
+        <param name="scan_topic" value="/scan"/>
+        <!-- Set base frame -->
+        <param name="base_frame" value="base_link"/>
+        <!-- Set map frame -->
+        <param name="map_frame" value="map"/>
+        <!-- Set update rate -->
+        <param name="map_update_rate" value="5.0"/>
+        
+    </node>
+    
+    <!-- Launch LIDAR driver -->
+    <node name="rplidar_node" pkg="rplidar_ros" type="rplidarNode">
+        <!-- Set serial port -->
+        <param name="serial_port" value="/dev/ttyUSB0"/>
+        <param name="serial_baudrate"     type="int"    value="115200"/>
+    </node>
+</launch>
